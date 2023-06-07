@@ -1,0 +1,88 @@
+/* Estilos para o cabeçalho */
+* {
+    background-color: #A3DFC3;
+}
+header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  button {
+    background-color: var(--bs-white);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 5px;
+    color: var(--bs-dark);
+  }
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+  /* Estilos para o conteúdo principal */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .resumo {
+      display: flex;
+      justify-content: center;
+  }
+
+  .calculo {
+    display: flex;
+}
+
+  .calculo div {
+      padding: 10px;
+  }
+
+  .calculo div p {
+    font-size: 20px;
+  }
+
+  td {
+      padding: 10px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid green;
+    border-radius: 0;
+  }
+
+
+  /* Estilos para o design responsivo no iPhone 12 */
+  @media screen and (max-width: 390px) {
+
+    header {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5px;
+      }
+
+    button {
+      padding: 8px 6px;
+      font-size: 10px;
+    }
+
+    input {
+      padding: 2px;
+    }
+    
+  }
